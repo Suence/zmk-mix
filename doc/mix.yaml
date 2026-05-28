@@ -50,7 +50,7 @@ layers:
   - /
   - RSHFT
   - layer 1
-  - ''
+  - Buleth
   - LEFT ALT
   - '['
   - SPACE
@@ -233,7 +233,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
