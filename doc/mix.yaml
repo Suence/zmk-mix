@@ -404,10 +404,10 @@ layers:
   - RIGHT GUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - BT CLR ALL
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
   - OUT TOG
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
