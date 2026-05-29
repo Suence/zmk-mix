@@ -124,8 +124,8 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 </style>
-<g transform="translate(30, 0)" class="layer-Layer0">
-<text x="0" y="28" class="label" id="Layer0">Layer0:</text>
+<g transform="translate(30, 0)" class="layer-Default">
+<text x="0" y="28" class="label" id="Default">Default:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 42)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -346,20 +346,20 @@ path.combo {
 <g transform="translate(252, 266)" class="key keypos-51">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ESC</text>
-<a href="#layer-1">
-<text x="0" y="24" class="key hold layer-activator">layer 1</text>
+<a href="#Fun">
+<text x="0" y="24" class="key hold layer-activator">Fun</text>
 </a></g>
 <g transform="translate(313, 270) rotate(8.0)" class="key keypos-52">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">SPACE</text>
-<a href="#layer-2">
-<text x="0" y="24" class="key hold layer-activator">layer 2</text>
+<a href="#Num">
+<text x="0" y="24" class="key hold layer-activator">Num</text>
 </a></g>
 <g transform="translate(378, 284) rotate(15.0)" class="key keypos-53">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key"/>
 <text x="0" y="0" class="key tap">TAB</text>
-<a href="#Buleth">
-<text x="0" y="24" class="key hold layer-activator">Buleth</text>
+<a href="#Sym">
+<text x="0" y="24" class="key hold layer-activator">Sym</text>
 </a></g>
 <g transform="translate(504, 284) rotate(-15.0)" class="key keypos-54">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key"/>
@@ -390,8 +390,8 @@ path.combo {
 </g>
 <g transform="translate(847, 266)" class="key keypos-59">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key"/>
-<a href="#Buleth">
-<text x="0" y="0" class="key tap layer-activator">Buleth</text>
+<a href="#Sym">
+<text x="0" y="0" class="key tap layer-activator">Sym</text>
 </a></g>
 <g class="combo combopos-0">
 <path d="M441,163 l-395,-116" class="combo"/>
@@ -403,8 +403,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 376)" class="layer-layer 1">
-<text x="0" y="28" class="label" id="layer-1">layer 1:</text>
+<g transform="translate(30, 376)" class="layer-Fun">
+<text x="0" y="28" class="label" id="Fun">Fun:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 42)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -667,8 +667,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 752)" class="layer-layer 2">
-<text x="0" y="28" class="label" id="layer-2">layer 2:</text>
+<g transform="translate(30, 752)" class="layer-Num">
+<text x="0" y="28" class="label" id="Num">Num:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 42)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -925,8 +925,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1128)" class="layer-Buleth">
-<text x="0" y="28" class="label" id="Buleth">Buleth:</text>
+<g transform="translate(30, 1128)" class="layer-Sym">
+<text x="0" y="28" class="label" id="Sym">Sym:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 42)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
