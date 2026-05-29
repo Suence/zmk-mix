@@ -52,9 +52,9 @@ layers:
   - Mouse
   - Mouse
   - ''
-  - {t: ESC, h: Mouse}
-  - {t: SPACE, h: Buleth}
-  - {t: TAB, h: Mouse}
+  - {t: ESC, h: layer 1}
+  - {t: SPACE, h: layer 2}
+  - {t: TAB, h: Buleth}
   - {t: BACKSPACE, h: Mouse}
   - {t: ENTER, h: Nav}
   - {t: DELETE, h: Media}
@@ -113,7 +113,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BACKSPACE
@@ -175,7 +175,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - '-'
   - '0'
@@ -236,8 +236,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - _
   - (
   - )
