@@ -139,11 +139,11 @@
         Num {
             display-name = "Num";
             bindings = <
-&trans  &trans        &trans        &trans     &trans          &trans  &trans            &trans        &trans        &trans        &trans             &trans
-&trans  &bootloader   &to 2         &to 1      &to 0           &trans  &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_BRACKET  &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans  &kp EQUAL         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SEMICOLON      &trans
-&trans  &trans        &trans        &trans     &trans          &trans  &kp BACKSLASH     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp GRAVE          &trans
-&trans  &trans        &trans        &trans     &trans          &trans  &kp MINUS         &kp NUMBER_0  &kp DOT       &trans        &trans             &trans
+&none  &none        &none        &none     &none          &none  &none            &none        &none        &none        &none             &none
+&none  &bootloader   &to 2         &to 1      &to 0           &none  &kp LEFT_BRACKET  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp RIGHT_BRACKET  &none
+&none  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &none  &kp EQUAL         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SEMICOLON      &none
+&none  &none        &none        &none     &none          &none  &kp BACKSLASH     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp GRAVE          &none
+&none  &none        &none        &none     &none          &none  &kp MINUS         &kp NUMBER_0  &kp DOT       &none        &none             &none
             >;
 
             sensor-bindings =
@@ -154,11 +154,11 @@
         Sym {
             display-name = "Sym";
             bindings = <
-&trans  &trans        &trans        &trans     &trans          &trans  &trans          &trans                &trans                 &trans                &trans           &trans
-&trans  &bootloader   &to 2         &to 1      &to 0           &trans  &kp LEFT_BRACE  &kp AMPERSAND         &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE  &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &trans  &kp PLUS        &kp DOLLAR            &kp PERCENT            &kp CARET             &kp COLON        &trans
-&trans  &trans        &trans        &trans     &trans          &trans  &kp PIPE        &kp EXCLAMATION       &kp AT_SIGN            &kp HASH              &kp TILDE        &trans
-&trans  &trans        &trans        &trans     &trans          &trans  &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                &trans           &trans
+&none  &none        &none        &none     &none          &none  &none          &none                &none                 &none                &none           &none
+&none  &bootloader   &to 2         &to 1      &to 0           &none  &kp LEFT_BRACE  &kp AMPERSAND         &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE  &none
+&none  &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &none  &kp PLUS        &kp DOLLAR            &kp PERCENT            &kp CARET             &kp COLON        &none
+&none  &none        &none        &none     &none          &none  &kp PIPE        &kp EXCLAMATION       &kp AT_SIGN            &kp HASH              &kp TILDE        &none
+&none  &none        &none        &none     &none          &none  &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none                &none           &none
             >;
 
             sensor-bindings =
@@ -169,33 +169,33 @@
         Mouse {
             display-name = "Mouse";
             bindings = <
-&trans  &trans          &trans        &trans          &trans           &trans         &trans  &trans           &trans     &trans         &trans         &trans
-&trans  &kp C_AC_UNDO   &kp C_AC_CUT  &kp C_AC_COPY   &kp C_AC_PASTE   &kp C_AC_REDO  &trans  &to 0            &to 1      &to 2          &bootloader    &trans
-&trans  &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans         &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
-&trans  &msc SCRL_LEFT  &msc SCRL_UP  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans         &trans  &trans           &trans     &trans         &trans         &trans
-&trans  &trans          &trans        &mkp MCLK       &mkp LCLK        &mkp RCLK      &trans  &trans           &trans     &trans         &trans         &trans
+&none  &none          &none        &none          &none           &none         &none  &none           &none     &none         &none         &none
+&none  &kp C_AC_UNDO   &kp C_AC_CUT  &kp C_AC_COPY   &kp C_AC_PASTE   &kp C_AC_REDO  &none  &to 0            &to 1      &to 2          &bootloader    &none
+&none  &mmv MOVE_LEFT  &mmv MOVE_UP  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none         &none  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI  &none
+&none  &msc SCRL_LEFT  &msc SCRL_UP  &msc SCRL_DOWN  &msc SCRL_RIGHT  &none         &none  &none           &none     &none         &none         &none
+&none  &none          &none        &mkp MCLK       &mkp LCLK        &mkp RCLK      &none  &none           &none     &none         &none         &none
             >;
         };
 
         Nav {
             display-name = "Nav";
             bindings = <
-&trans  &trans          &trans        &trans          &trans           &trans         &trans  &trans           &trans     &trans         &trans         &trans
-&trans  &kp C_AC_UNDO   &kp C_AC_CUT  &kp C_AC_COPY   &kp C_AC_PASTE   &kp C_AC_REDO  &trans  &to 0            &to 1      &to 2          &bootloader    &trans
-&trans  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp CAPSLOCK   &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
-&trans  &kp END         &kp PAGE_UP   &kp PAGE_DOWN   &kp HOME         &kp INSERT     &trans  &trans           &trans     &trans         &trans         &trans
-&trans  &trans          &trans        &trans          &trans           &trans         &trans  &trans           &trans     &trans         &trans         &trans
+&none  &none          &none        &none          &none           &none         &none  &none           &none     &none         &none         &none
+&none  &kp C_AC_UNDO   &kp C_AC_CUT  &kp C_AC_COPY   &kp C_AC_PASTE   &kp C_AC_REDO  &none  &to 0            &to 1      &to 2          &bootloader    &none
+&none  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp CAPSLOCK   &none  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI  &none
+&none  &kp END         &kp PAGE_UP   &kp PAGE_DOWN   &kp HOME         &kp INSERT     &none  &none           &none     &none         &none         &none
+&none  &none          &none        &none          &none           &none         &none  &none           &none     &none         &none         &none
             >;
         };
 
         Media {
             display-name = "Media";
             bindings = <
-&trans  &trans           &trans             &trans           &trans           &trans             &trans  &trans           &trans     &trans         &trans         &trans
-&trans  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI    &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &rgb_ug RGB_TOG    &trans  &to 0            &to 1      &to 2          &bootloader    &trans
-&trans  &kp C_PREV       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT       &ext_power EP_TOG  &trans  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI  &trans
-&trans  &bt BT_CLR_ALL   &bt BT_SEL 0       &bt BT_SEL 1     &bt BT_SEL 2     &out OUT_TOG       &trans  &trans           &trans     &trans         &trans         &trans
-&trans  &trans           &trans             &kp K_MUTE       &kp C_PP         &kp C_STOP         &trans  &trans           &trans     &trans         &trans         &trans
+&none  &none           &none             &none           &none           &none             &none  &none           &none     &none         &none         &none
+&none  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI    &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &rgb_ug RGB_TOG    &none  &to 0            &to 1      &to 2          &bootloader    &none
+&none  &kp C_PREV       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT       &ext_power EP_TOG  &none  &kp RIGHT_SHIFT  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_GUI  &none
+&none  &bt BT_CLR_ALL   &bt BT_SEL 0       &bt BT_SEL 1     &bt BT_SEL 2     &out OUT_TOG       &none  &none           &none     &none         &none         &none
+&none  &none           &none             &kp K_MUTE       &kp C_PP         &kp C_STOP         &none  &none           &none     &none         &none         &none
             >;
         };
     };
