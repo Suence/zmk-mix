@@ -380,11 +380,11 @@ layers:
   - ''
   - ''
   - ''
-  - AC UNDO
-  - AC CUT
-  - AC COPY
-  - AC PASTE
+  - ''
+  - '&mmv MOVE_UP'
+  - ''
   - AC REDO
+  - '&msc SCRL_UP'
   - ''
   - {t: Base, h: toggle}
   - {t: Extra, h: toggle}
@@ -393,10 +393,10 @@ layers:
   - ''
   - ''
   - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_UP'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - ''
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_RIGHT'
   - ''
   - RIGHT SHIFT
   - RCTRL
@@ -404,11 +404,11 @@ layers:
   - RIGHT GUI
   - ''
   - ''
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_UP'
+  - AC UNDO
+  - AC CUT
+  - AC COPY
+  - AC PASTE
   - '&msc SCRL_DOWN'
-  - '&msc SCRL_RIGHT'
-  - ''
   - ''
   - ''
   - ''
@@ -441,11 +441,11 @@ layers:
   - ''
   - ''
   - ''
-  - AC UNDO
-  - AC CUT
-  - AC COPY
-  - AC PASTE
+  - CAPSLOCK
+  - UP ARROW
+  - INSERT
   - AC REDO
+  - PAGE UP
   - ''
   - {t: Base, h: toggle}
   - {t: Extra, h: toggle}
@@ -455,9 +455,9 @@ layers:
   - ''
   - LEFT ARROW
   - UP ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - CAPSLOCK
+  - RIGHT
+  - HOME
+  - END
   - ''
   - RIGHT SHIFT
   - RCTRL
@@ -465,11 +465,11 @@ layers:
   - RIGHT GUI
   - ''
   - ''
-  - END
-  - PAGE UP
+  - AC UNDO
+  - AC CUT
+  - AC COPY
+  - AC PASTE
   - PAGE DOWN
-  - HOME
-  - INSERT
   - ''
   - ''
   - ''
@@ -502,11 +502,11 @@ layers:
   - ''
   - ''
   - ''
-  - RGB BRI
-  - RGB SAI
-  - RGB HUI
-  - RGB EFF
-  - RGB TOG
+  - ''
+  - VOLUME UP
+  - ''
+  - ''
+  - ''
   - ''
   - {t: Base, h: toggle}
   - {t: Extra, h: toggle}
@@ -516,9 +516,9 @@ layers:
   - ''
   - PREV
   - VOLUME DOWN
-  - VOLUME UP
   - NEXT
-  - EP TOG
+  - ''
+  - ''
   - ''
   - RIGHT SHIFT
   - RCTRL
@@ -526,11 +526,11 @@ layers:
   - RIGHT GUI
   - ''
   - ''
-  - BT CLR ALL
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
-  - OUT TOG
+  - {t: BT, h: '3'}
+  - BT CLR ALL
   - ''
   - ''
   - ''
