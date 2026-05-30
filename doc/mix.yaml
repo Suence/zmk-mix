@@ -258,11 +258,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - Ctl+REDO
+  - AC UNDO
+  - AC CUT
+  - AC COPY
+  - AC PASTE
+  - AC REDO
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -319,11 +319,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - REDO
+  - AC UNDO
+  - AC CUT
+  - AC COPY
+  - AC PASTE
+  - AC REDO
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -393,8 +393,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PREV
-  - VOL UP
   - VOLUME DOWN
+  - VOLUME UP
   - NEXT
   - EP TOG
   - {t: ▽, type: trans}
