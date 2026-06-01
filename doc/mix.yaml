@@ -171,8 +171,8 @@ layers:
   - .
   - /
   - RSHFT
-  - ''
-  - ''
+  - LEFT SHIFT
+  - LEFT GUI
   - LEFT ALT
   - {t: ESC, h: Fun}
   - {t: SPACE, h: Num}
@@ -181,8 +181,8 @@ layers:
   - {t: ENTER, h: Nav}
   - {t: DELETE, h: Media}
   - RIGHT ALT
-  - ''
-  - ''
+  - RIGHT GUI
+  - RIGHT SHIFT
   Fun:
   - ''
   - ''
