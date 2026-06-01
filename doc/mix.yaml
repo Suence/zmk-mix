@@ -197,7 +197,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&bootloader'
+  - '&TD2_BOOTLOADER'
   - {t: Tap, h: toggle}
   - {t: Extra, h: toggle}
   - {t: Base, h: toggle}
@@ -258,7 +258,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&bootloader'
+  - '&TD2_BOOTLOADER'
   - {t: Tap, h: toggle}
   - {t: Extra, h: toggle}
   - {t: Base, h: toggle}
@@ -319,7 +319,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&bootloader'
+  - '&TD2_BOOTLOADER'
   - {t: Tap, h: toggle}
   - {t: Extra, h: toggle}
   - {t: Base, h: toggle}
@@ -389,7 +389,7 @@ layers:
   - {t: Base, h: toggle}
   - {t: Extra, h: toggle}
   - {t: Tap, h: toggle}
-  - '&bootloader'
+  - '&TD2_BOOTLOADER'
   - ''
   - ''
   - '&mmv MOVE_LEFT'
@@ -450,7 +450,7 @@ layers:
   - {t: Base, h: toggle}
   - {t: Extra, h: toggle}
   - {t: Tap, h: toggle}
-  - '&bootloader'
+  - '&TD2_BOOTLOADER'
   - ''
   - ''
   - LEFT ARROW
@@ -511,7 +511,7 @@ layers:
   - {t: Base, h: toggle}
   - {t: Extra, h: toggle}
   - {t: Tap, h: toggle}
-  - '&bootloader'
+  - '&TD2_BOOTLOADER'
   - ''
   - ''
   - PREV
